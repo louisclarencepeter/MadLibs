@@ -47,7 +47,12 @@ namespace MadLibs
             Console.Write("Imagine a year in the future, any year: ");
             string year = Console.ReadLine();
 
+            // The template for the story:
+            string story = $"This morning {superhero} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {noun1}, which made all the {fruit}s very {adj3}. Concerned, {superhero} texted {noun2}, who flew {superhero} to {country} and dropped {superhero} in a puddle of frozen {dessert}. {superhero} woke up in the year {year}, in a world where {noun1}s ruled the world.";
 
+            // Print the story:
+            Console.WriteLine("\nHere's your Mad Libs story:");
+            Console.WriteLine(story);
         }
     }
 }
